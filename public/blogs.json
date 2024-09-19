@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "1a2b3c4d",
+    "cover": "https://i.ibb.co.com/GQ7Q7Jb/1.jpg",
+    "author": "John Doe",
+    "author_img": "https://i.ibb.co.com/T0MRBs2/boy1.png",
+    "title": "How to get your first job as a self-taught programmer",
+    "reading_time": "05",
+    "hash_tag": ["#AI", "#Tech", "#Innovation"],
+    "posted_date": "10 September (4 days ago)"
+  },
+  {
+    "_id": "2b3c4d5e",
+    "cover": "https://i.ibb.co.com/Z1DLtKr/2.png",
+    "author": "Jane Smith",
+    "author_img": "https://i.ibb.co.com/BNNGhVy/boy2.jpg",
+    "title": "Mastering the Job Hunt: A Guide for Self-Taught Developers",
+    "reading_time": "08",
+    "hash_tag": ["#Space", "#Astronomy", "#Science"],
+    "posted_date": "8 September (6 days ago)"
+  },
+  {
+    "_id": "3c4d5e6f",
+    "cover": "https://i.ibb.co.com/vh1Svk8/3.png",
+    "author": "Michael Lee",
+    "author_img": "https://i.ibb.co.com/Hz7fTL6/girl1.jpg",
+    "title": "Building a Tech Career Without a Degree: Proven Strategies for Success",
+    "reading_time": "06",
+    "hash_tag": ["#Quantum", "#Computing", "#Future"],
+    "posted_date": "12 September (2 days ago)"
+  },
+  {
+    "_id": "4d5e6f7g",
+    "cover": "https://i.ibb.co.com/6FmhtrC/4.jpg",
+    "author": "Emily Clark",
+    "author_img": "https://i.ibb.co.com/Qbq8X8B/girl2.jpg",
+    "title": "Breaking Into Tech: Steps for Self-Taught Programmers to Get Hired",
+    "reading_time": "04",
+    "hash_tag": ["#EV", "#Sustainability", "#Technology"],
+    "posted_date": "15 September (Today)"
+  }
+]
