@@ -7,7 +7,7 @@ export default function Blogs({ handleBookmark, handleReadTime }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("../../../public/blogs.json");
+        const response = await fetch("/blogs.json");
         const result = await response.json();
         setBlogs(result);
       } catch (error) {

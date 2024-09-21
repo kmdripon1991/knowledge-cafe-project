@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 const Bookmarks = ({ bookmarks, readTime }) => {
-  console.log(bookmarks, typeof bookmarks);
   return (
     <div className="col-span-4">
       <h1 className="text-center text-xl bg-gray-300 text-violet-500 rounded-md py-3 mb-3 font-bold">
