@@ -7,7 +7,9 @@ import "./index.css";
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
   const [readTime, setReadTime] = useState(0);
-  const handleReadTime = (time) => {
+  const handleReadTime = (id, time) => {
+    const remainBookmarks = bookmarks.filter((bookmark) => bookmark._id !== id);
+    setBookmarks([...remainBookmarks]);
     setReadTime(readTime + time);
   };
   const handleBookmark = (blog) => {
@@ -23,7 +25,6 @@ function App() {
   return (
     <div className="mx-20 my-5">
       <Header />
-      <hr className="border-t-2 border-gray-400 my-4" />
       <div className="grid grid-cols-12 gap-2">
         <Blogs
           handleBookmark={handleBookmark}

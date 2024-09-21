@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FaBookmark, FaRegBookmark } from "react-icons/fa6";
 const Card = ({ blog, handleBookmark, handleReadTime }) => {
   const {
+    _id,
     cover,
     reading_time,
     author_img,
@@ -45,7 +46,9 @@ const Card = ({ blog, handleBookmark, handleReadTime }) => {
         </p>
         <p
           className="text-violet-500 underline cursor-pointer"
-          onClick={() => handleReadTime(+reading_time)}
+          onClick={() => {
+            handleReadTime(_id, +reading_time), setIsBookmark(!isBookmark);
+          }}
         >
           Mark as read
         </p>
